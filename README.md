@@ -75,7 +75,6 @@ graph TD
 
 * **Python**
 * **Streamlit** – UI layer
-* **LangChain** – RAG orchestration
 * **OpenAI API** – embeddings + LLM
 * **Vector Store** – Pinecone or local
 
