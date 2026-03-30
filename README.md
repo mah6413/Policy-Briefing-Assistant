@@ -81,6 +81,18 @@ graph TD
 
 ---
 
+## 🔒 Note on Deployment
+
+This repository contains the source code for the application.  
+The Streamlit app is not publicly deployed.
+
+To run locally:
+1. Clone the repo  
+2. Add your OpenAI API key  
+3. Run: streamlit run app.py
+
+---
+
 ## ⚙️ Setup Instructions
 
 ### 1. Clone the Repository
