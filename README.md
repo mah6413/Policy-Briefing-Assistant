@@ -181,6 +181,3 @@ This project showcases:
 
 
 
----
-
-If you want, I can next turn this into a **“standout portfolio README”** (top 1–5% level) that helps you land AI/tech roles or pitch this in Ain Foundry.
