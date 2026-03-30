@@ -26,7 +26,7 @@ The system uses a **RAG pipeline** to improve accuracy and reduce hallucinations
 graph TD
     A[User Input - Streamlit UI] --> B[RAG Pipeline]
     B --> C[Document Processing]
-    C --> D[Embeddings (OpenAI)]
+    C --> D[Embeddings - OpenAI]
     D --> E[Vector Store]
     E --> F[Context Retrieval]
     F --> G[LLM Generation]
@@ -57,11 +57,10 @@ graph TD
   * Processing user queries
   * Retrieving relevant document chunks
   * Passing context to the LLM
-* Orchestrates the full RAG workflow
 
 ---
 
-### `document_loader.py` *(or equivalent loader/embedding file in your repo)*
+### `document_loader.py`
 
 * Handles document ingestion and preprocessing
 * Functions may include:
@@ -78,7 +77,7 @@ graph TD
 * **Streamlit** – UI layer
 * **LangChain** – RAG orchestration
 * **OpenAI API** – embeddings + LLM
-* **Vector Store** – Pinecone or local (depending on configuration)
+* **Vector Store** – Pinecone or local
 
 ---
 
@@ -103,12 +102,12 @@ pip install -r requirements.txt
 
 ### 3. Set Environment Variables
 
-Create a `.env` file or export keys:
+Create a `.env` file or export:
 
 ```bash
 OPENAI_API_KEY=your_api_key_here
-PINECONE_API_KEY=your_api_key_here   # if used
-PINECONE_ENV=your_env                # if used
+PINECONE_API_KEY=your_api_key_here
+PINECONE_ENV=your_env
 ```
 
 ---
@@ -128,18 +127,17 @@ streamlit run app.py
 3. Enter a query such as:
 
    * *"Summarize the key recommendations"*
-   * *"Generate a policy briefing based on this document"*
+   * *"Generate a policy briefing"*
 4. View AI-generated output grounded in document content
 
 ---
 
 ## 🎯 Use Cases
 
-* Policy analysis and research
-* Nonprofit document intelligence
+* Policy analysis
+* Nonprofit research
 * Legal and regulatory summarization
-* Government and advocacy support
-* Academic research assistance
+* Government and advocacy work
 
 ---
 
@@ -156,8 +154,7 @@ streamlit run app.py
 * Export outputs (PDF, Word, PPT)
 * Source citation highlighting
 * Multi-document comparison
-* Authentication and user roles
-* Cloud deployment
+* Authentication and deployment
 
 ---
 
@@ -173,11 +170,10 @@ streamlit run app.py
 
 ## ⭐ Why This Project Matters
 
-This project showcases:
+This project demonstrates:
 
-* Real-world application of **LLMs + RAG systems**
-* Integration of AI into **policy and document-heavy workflows**
-* End-to-end system design from backend pipeline to user interface
-
+* Real-world **RAG system implementation**
+* Integration of AI into **policy workflows**
+* End-to-end system design (UI + backend + LLM)
 
 
