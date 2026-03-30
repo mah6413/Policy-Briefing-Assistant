@@ -176,7 +176,7 @@ streamlit run app.py
 
 * Cybersecurity Analyst
 * MBA – RIT
-* MS in Business Analytics & Applied AI candidate at Simon Business School
+* MS in Business Analytics & Applied AI candidate at University of Rochester-Simon Business School
 
 ---
 
