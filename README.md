@@ -173,7 +173,7 @@ streamlit run app.py
 
 **Maxine H.**
 
-* Cybersecurity Analyst
+* DevOps Engineer
 * MBA – RIT
 * MS in Business Analytics & Applied AI candidate at University of Rochester-Simon Business School
 
